@@ -452,6 +452,14 @@ void updateState(State& currentState, Event event) {
 
 ```
 
+### Program Output
+
+Program output screen shot
 
 ![STATE_MACHINE_SCREENSHOT](https://raw.githubusercontent.com/arsscriptum/Technical-Test.CPlusPlus/master/img/STATE_MACHINE_SCREENSHOT.png)
+
+
+### Program Source
+
+Project Source Code [here](https://github.com/arsscriptum/Technical-Test.CPlusPlus/tree/master/project)
 

@@ -10,10 +10,9 @@
 
 
 #include "stdafx.h"
-#include "win32.h"
-#include "cmdline.h"
+
 #include "Shlwapi.h"
-#include "log.h"
+
 
 
 #include <codecvt>

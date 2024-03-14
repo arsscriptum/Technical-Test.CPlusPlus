@@ -1,0 +1,30 @@
+
+La state machine
+
+---------------
+| Idle        |
+---------------
+|       
+| Press button
+v       
+-------------------------
+| Call Init audio tone  |
+-------------------------
+|       
+| Answer call
+v       
+---------------
+| Call Active |
+---------------
+|       
+| End call
+v       
+ -------------
+| Call Ended  |
+ -------------
+
+
+Normal: In Idle Mode.
+Press button: an audio tone starts: Call Init
+Driver answers the call; the audio tone stops. "Talkk" indicator turns ON. Call Active
+Driver Ends call: Indicators turn OFF and this is the Call Ended State.

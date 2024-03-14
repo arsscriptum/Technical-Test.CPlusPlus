@@ -1,6 +1,7 @@
 ## QUESTION 1
 
-![img1(img/1.png)]
+![img1](https://raw.githubusercontent.com/arsscriptum/Technical-Test.CPlusPlus/master/img/1.png)
+
 
 #### Answer
 The final values for x, y and z are:
@@ -10,10 +11,34 @@ z = 11
 
 ## QUESTION 2
 
+![img2](https://raw.githubusercontent.com/arsscriptum/Technical-Test.CPlusPlus/master/img/2.png)
+
+![img2a](https://raw.githubusercontent.com/arsscriptum/Technical-Test.CPlusPlus/master/img/2a.png)
+
 1. Explain in few words what is the difference between the two programs?
 2. What will be the final value of the counter variable?
 
+#### Answer
 
+So the in the first program, the argument in incrementFunction is passed by value and in the second programe 
+the argument is passed by reference. When you pass an argument by reference, you are passing 
+a reference to the variable. Any changes will directly affect the original variable outside the function.
+
+When you pass an argument by value to a function (like in the first program), a copy of the 
+argument's value is made and passed to the function. Any changes made to the parameter inside the
+ function do not affect the original value of the argument outside the function.
+
+The first program will output
+
+```
+counter value is 0
+```
+
+The second: 
+
+```
+counter value is 1
+```
 
 
 ## QUESTION 3

@@ -1,9 +1,12 @@
 ## QUESTION 1
 
+**What are the final values of x, y and z?**
+
 ![img1](https://raw.githubusercontent.com/arsscriptum/Technical-Test.CPlusPlus/master/img/1.png)
 
 
 #### Answer
+
 The final values for x, y and z are:
 x = 9
 y = 10

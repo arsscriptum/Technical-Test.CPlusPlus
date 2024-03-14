@@ -1,3 +1,20 @@
+## QUESTION 1
+
+![img1(img/1.png)]
+
+#### Answer
+The final values for x, y and z are:
+x = 9
+y = 10
+z = 11
+
+## QUESTION 2
+
+1. Explain in few words what is the difference between the two programs?
+2. What will be the final value of the counter variable?
+
+
+
 
 ## QUESTION 3
 

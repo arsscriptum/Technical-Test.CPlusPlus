@@ -129,6 +129,9 @@ Hybrid Car Rental Price: $187.5
 
 Perform a code review on the following C++ program. Note the errors and share your observations:
 
+![code_question4](https://raw.githubusercontent.com/arsscriptum/Technical-Test.CPlusPlus/master/img/code_question4.png)
+
+
 ```
 #include <iostream>
 using namespace std;
@@ -268,8 +271,12 @@ bool ConfigParser::LoadConfiguration(XMLElement * p_systemConfigElement)
 		}
 	}
 }
-
 ```
+
+
+![code_question5](https://raw.githubusercontent.com/arsscriptum/Technical-Test.CPlusPlus/master/img/code_question5.png)
+
+
 
 #### ANWSER
 
@@ -446,4 +453,5 @@ void updateState(State& currentState, Event event) {
 ```
 
 
+![STATE_MACHINE_SCREENSHOT](https://raw.githubusercontent.com/arsscriptum/Technical-Test.CPlusPlus/master/img/STATE_MACHINE_SCREENSHOT.png)
 

@@ -12,9 +12,6 @@
 #include "stdafx.h"
 
 #include "Shlwapi.h"
-
-
-
 #include <codecvt>
 #include <locale>
 #include <vector>
@@ -24,24 +21,27 @@
 #include <filesystem>
 #include <iostream>
 #include <sstream>
-
-
-
-
-
-//#pragma message( "Compiling " __FILE__ )
-//#pragma message( "Last modified on " __TIMESTAMP__ )
-
-
-
 #include <iostream>
+
+
+#pragma message( "Compiling " __FILE__ )
+#pragma message( "Last modified on " __TIMESTAMP__ )
+
+
+
 using namespace std;
 
 
-#include <iostream>
-#include <string>
+void questionOne()
+{
+    int x, y, z;
+    x = 9;
+    z = x + 1 + 1 * 0;
+    y = z++;
 
-using namespace std;
+    printf("Question 1:\nValues:\n\tx=%d\n\ty=%d\n\tz=%d\n\n", x, y, z);
+}
+
 
 // Enum for device states, I write them as enums and not class enum because I may need to cast them to int for output.
 enum State {
@@ -62,6 +62,9 @@ enum Event {
 void updateState(State& currentState, Event event);
 
 int main() {
+
+    questionOne();
+
     State currentState = State::Idle;
 
     cout << "State Machine Testv 1.0" << endl << endl;
